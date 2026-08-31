@@ -2,8 +2,6 @@
 
 A skill for removing AI tells from prose.
 
-<img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
-
 ## What this is
 
 AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.
@@ -55,7 +53,7 @@ Below 35/50: revise.
 
 ## Author
 
-[Hardik Pandya](https://hvpandya.com)
+[Charlie Cheesman]
 
 ## License
 
