@@ -19,8 +19,12 @@ Remove these announcement phrases. State the content directly.
 - "Can we talk about"
 - "Here's what I find interesting"
 - "Here's the problem though"
+- "Here's the [outline/breakdown/structure]."
+- "It's [characterisation]:" following an announcement
 
 Any "here's what/this/that" construction is throat-clearing before the point. Cut it and state the point.
+
+Any sentence whose only job is to introduce the next sentence gets cut. "Here's the outline. It's three beats welded together:" is two sentences of announcement before any content. Give the outline.
 
 ## Emphasis Crutches
 
@@ -31,6 +35,29 @@ These add no meaning. Delete them.
 - "This matters because"
 - "Make no mistake"
 - "Here's why that matters"
+
+## Staged Emphasis
+
+Labels that announce a point is important instead of making it.
+
+- "The key distinction is"
+- "The deeper point"
+- "The honest take"
+- "The cleanest way to see this"
+- "The load-bearing constraint"
+- "The verdict"
+- "The smoking gun"
+- "The real question"
+
+## Validation Framing
+
+- "You're absolutely right"
+- "Fair hit"
+- "Good catch"
+- "One honest caveat"
+- "The honest answer is"
+
+Keep these only when the interpersonal meaning is the point.
 
 ## Business Jargon
 
@@ -97,6 +124,11 @@ Remove self-referential asides. The essay should move, not announce its own stru
 - "In this section, we'll..."
 - "As we'll see..."
 - "I want to explore..."
+- Mechanical metaphors for prose structure ("three beats welded together", "the sentence does X")
+- "In one sentence:"
+- "Put differently,"
+- "In other words,"
+- "To be clear,"
 
 ## Performative Emphasis
 
