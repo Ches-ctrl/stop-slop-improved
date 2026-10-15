@@ -1,6 +1,8 @@
-# Stop Slop
+# Stop Slop Improved
 
 A skill for removing AI tells from prose.
+
+Based on [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya. This version adds rules for restatement, concession pivots, explanatory tails, clefts, borrowed metaphors and over-correcting, twelve more quick checks, and five more worked examples. `CHANGELOG.md` lists every addition.
 
 ## What this is
 
@@ -51,9 +53,10 @@ Rate 1-10 on each dimension:
 
 Below 35/50: revise.
 
-## Author
+## Authors
 
-[Charlie Cheesman]
+- Original: [Hardik Pandya](https://hvpandya.com)
+- Improvements: Charlie Cheesman
 
 ## License
 
