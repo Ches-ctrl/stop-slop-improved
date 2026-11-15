@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-11-15 (final board pack review)
+
+### Added
+
+**SKILL.md**
+- Deck cliches: "use case(s)" and slogans ("first-class citizen", "north star", "table stakes").
+- False agency: "our plan starts with... then focuses on".
+- Sentence shapes: slogan before the colon; framing phrases at the start of a sentence.
+- Across the document: contradictions between sections.
+- Don't over-correct: don't fix a sentence by deleting its facts.
+- Examples 12 (fixes from the final pack) and 13 (lines that already work).
+
 ## 2026-11-15
 
 ### Changed

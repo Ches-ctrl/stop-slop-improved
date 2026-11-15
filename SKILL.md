@@ -76,11 +76,13 @@ A rewrite that reads well but gets a role, relationship, number or commitment wr
 | Nouns used as verbs ("baseline London West") | "measure London West's starting point" |
 | Shorthand in reader-facing titles ("W2", "OOS") | "week 2", "out of scope" |
 | Unquantified superlatives ("fastest payback", "no clinical risk", "Europe's first") | The number, or cut it |
+| "use case(s)" in anything the client reads | The tool or task by name ("the billing check", "10 tools") |
+| Slogans: "first-class citizen", "north star", "table stakes", "single source of truth" | What you do ("nothing goes live without Ravi's sign-off") |
 | navigate, unpack, lean into, landscape, deep dive, circle back | handle, explain, accept, field, analysis, return to |
 
 ### Sentence shapes
 
-- **False agency.** Ideas, steps, priorities, sites, bids, decisions, metrics and processes doing human things: "10 ideas go first", "each step loses", "outsourcing drives both", "German sites show what good looks like", "the bid carries measured results", "the decision emerges". Name who acts, or give the number.
+- **False agency.** Ideas, steps, priorities, sites, bids, decisions, metrics and processes doing human things: "10 ideas go first", "each step loses", "outsourcing drives both", "German sites show what good looks like", "the bid carries measured results", "the decision emerges", "our plan starts with... then focuses on". Name who acts, or give the number.
 - **Nominalisations hiding the actor.** "Merge authority is restricted" becomes "only owners can merge".
 - **Bolt-on "with X -ing".** "Fix billing first, with Ravi signing off every tool" glues a second actor onto the first idea. Split it. "With" is fine when it introduces a direct consequence of the main clause: "EBITDA will fall to £0m, with all 3 contract KPIs missing target."
 - **Reversed or trailing clauses.** The key dependency arrives last as an add-on: "3 priorities go live by March, on a Cardinal integration the pod builds." Put the actor and the dependency first.
@@ -90,6 +92,8 @@ A rewrite that reads well but gets a role, relationship, number or commitment wr
 - **Taglines.** Every item ending by restating what the reader gets. Cut them.
 - **Triads with a vague last item.** "Reaches 3x patients, keeps its £80m contract and does it safely." Cut the item that carries no fact.
 - **Mismatched lists.** Items in different grammar: "agree measures, baseline London West, results to the board". Make every item the same shape.
+- **Slogan before the colon.** "Safety is a first-class citizen: nothing goes into production without Ravi's sign-off." The slogan restates the point that follows the colon. Keep the point.
+- **Framing phrases at the start.** "On its current trajectory, FY27 EBITDA falls...", "Across the patient journey, we will prioritise..." The opener delays the subject, and "its" points at a noun the reader hasn't met yet. Start with the subject; put a condition in an "if" clause ("If nothing changes, ...").
 - **Mixed clauses across a semicolon.** "This week we agree measures; by W2 London West is baselined and the build has started" switches tense, voice and actor mid-sentence. Keep one actor and one tense.
 - **Idioms in place of numbers.** "Reads rose and took the margin with them." Give the margin.
 - **Wh- clefts and descriptive Wh- headings.** "What makes this hard is...", "That's what makes it work", "What drives the risk, and how we remove it", "What each step loses". State the finding instead. A plan title such as "How Wavelength reaches 3x patients by 2030" is fine.
@@ -108,6 +112,7 @@ A rewrite that reads well but gets a role, relationship, number or commitment wr
 
 - **Check every string the reader sees:** headlines, subtitles, cards, chart titles, axis labels, table cells, callouts, buttons, footnotes, and text built by script. Table cells can be fragments; every other rule still applies.
 - **Repetition.** A sentence restating the one before it, or the same claim in 3 or more places ("Ravi signs every tool"). Keep it in the summary and the section that proves it.
+- **Contradictions.** The same fact stated two ways in different sections ("built on Wavelength data" in one place, "No training on Wavelength data" in another). Check which is true and use it everywhere.
 - **Headline chain.** Read the headlines alone, in order. They should make the argument to the reader.
 
 ---
@@ -118,6 +123,7 @@ Every ban invites a substitute that is just as bad. Watch for these:
 
 - **Passive is allowed** when the actor doesn't matter or is obvious: "before it is used on patients". Never invent an actor ("ideas go first") to avoid a passive.
 - **Don't shorten past grammar.** If cutting a word breaks the sentence, keep the word. If the shorter version is less true, keep the longer one.
+- **Don't fix a sentence by deleting its facts.** A rewrite keeps every number, date and owner the original carried. "Three priorities go live at London West by March" lost its date when it became "Our plan... focuses on 3 priority use cases at London West".
 - **Don't move a cut word.** A banned adverb moved to a comma tail is still there.
 - **Don't force two items** when the reader needs three facts. Cut the third item only when it carries no fact.
 - **Check the rewrite** with every check above. A fix carries its own tells. See Over-Correcting in `references/structures.md`.
@@ -197,6 +203,26 @@ From a consultancy's proposal asking a radiology company's CEO to fund the next 
 - "We build normal-scan AI in-house in Phase III, on a certified medical-device route" becomes "In Phase III we build normal-scan AI in-house and certify it as a medical device"
 - "£1.20 on all 3.4m studies for three years costs four times the £3m budget" becomes "Northlight charges £1.20 a study. Across 3.4m studies for 3 years that's £12m, 4 times the £3m budget."
 - "Agree measures this week, baseline London West next week, results to the board on 25 March" becomes "This week we agree measures; next week we measure London West's starting point; on 25 March we bring results to the board"
+
+**12. From the final version of the same document**
+- Before: Safety is a first-class citizen: nothing goes into production without Ravi's sign-off
+- After: Nothing goes live without sign-off from Ravi, your Clinical Safety Officer
+- Why: Slogan before the colon; the slogan adds nothing the second half doesn't say.
+
+- Before: Our plan starts with a custom Cardinal integration, then focuses on 3 priority use cases at London West
+- After: Our engineers build a link into Cardinal first, so the first 3 tools can go live at London West by March
+- Why: The plan acts; "focuses on" and "use cases" are vague; the date and the builder dropped out of the earlier version.
+
+- Before: Across the patient journey, we will prioritise 10 use cases in year one
+- After: In year one we start with 10 tools across 7 steps, from referral to invoice, worth £[x]m a year
+- Why: Framing phrase at the start; "prioritise" says nothing about value; the £ figure dropped out.
+
+**13. Lines that already work (keep these)**
+- "Profit is falling and the contract is at risk." Plain subject and verb, in the client's terms.
+- "Every tool passes the same 5-step safety process before it goes live." Actor, verb, number, timing.
+- "Outsourced share rose from 40% to 56% of MRI/CT during FY26." A measured number with a measuring verb.
+- "EBITDA fell £[x]m (−37%) in FY26; margin 6.5% → 3.7%." The cause of the headline, in numbers.
+- "We start at London West the week after you confirm." Names who acts, where, and what triggers it.
 
 ---
 
